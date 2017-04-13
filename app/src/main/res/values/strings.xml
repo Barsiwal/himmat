@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Himmat</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Lorem ipsum</string>
+    <string name="slide_1_desc"> Nulla facilisi. Integer odio neque, aliquet non lobortis eget, porta nec orci.</string>
+
+    <string name="slide_2_title">Consectetur adipiscing</string>
+    <string name="slide_2_desc">Mauris ut dictum justo. Cras porta augue ut metus fringilla, in aliquet tortor pharetra.</string>
+
+    <string name="slide_3_title">Sed mauris</string>
+    <string name="slide_3_desc">Maecenas vitae nibh fringilla, egestas turpis in, ultrices odio. Donec a odio porta odio ultricies laoreet vitae sed</string>
+
+    <string name="slide_4_title">Duis sed orci</string>
+    <string name="slide_4_desc">Aenean bibendum consectetur sapien, in egestas urna consectetur vitae.</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
