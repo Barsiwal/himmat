@@ -4,13 +4,13 @@
         android:title="My Account">
 
         <Preference
-            android:title="Username"
-            android:summary="rishabhp"
+            android:title="Name"
+            android:summary="karan"
             android:key="username" />
 
         <EditTextPreference
             android:title="Email"
-            android:summary="rishabh.pugalia@gmail.com"
+            android:summary="karan@gamil.com"
             android:key="email" />
 
     </PreferenceCategory>

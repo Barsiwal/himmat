@@ -23,6 +23,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import com.example.karanbarsiwal.himmat.fragments.Maps;
 import com.example.karanbarsiwal.himmat.fragments.Settings;
 import com.example.karanbarsiwal.himmat.fragments.Tabs;
 
@@ -175,8 +176,8 @@ public class MainActivity extends AppCompatActivity{
                     t = Tabs.newInstance();
                     return t;
                 case 1:
-                    Tabs t2;
-                    t2 = Tabs.newInstance();
+                    Maps t2;
+                    t2 = new Maps();
                     return t2;
                 case 2:
                     Tabs t3;

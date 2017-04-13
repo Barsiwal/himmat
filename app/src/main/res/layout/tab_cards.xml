@@ -21,7 +21,7 @@
                 android:layout_height="300dp"
                 fresco:actualImageScaleType="centerCrop"
                 fresco:placeholderImageScaleType="centerCrop"
-                fresco:placeholderImage="@drawable/test"/>
+                fresco:placeholderImage="@drawable/indian"/>
 
             <TextView
                 android:id="@+id/title"
@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:layout_weight="0.14"
-                    android:text="MrPoopyPants" />
+                    android:text="Wow" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
