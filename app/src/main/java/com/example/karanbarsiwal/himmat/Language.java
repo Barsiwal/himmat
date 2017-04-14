@@ -6,13 +6,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.cengalabs.flatui.FlatUI;
+
 public class Language extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language);
-
+        FlatUI.initDefaultValues(this);
         Button hindi = (Button)findViewById(R.id.hindi);
         hindi.setOnClickListener(new View.OnClickListener() {
             @Override

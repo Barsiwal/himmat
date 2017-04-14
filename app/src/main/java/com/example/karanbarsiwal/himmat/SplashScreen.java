@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.cengalabs.flatui.FlatUI;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 public class SplashScreen extends Activity {
@@ -22,6 +23,7 @@ public class SplashScreen extends Activity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash);
         Fresco.initialize(this);
+        FlatUI.initDefaultValues(this);
         new Handler().postDelayed(new Runnable() {
 
             /*
